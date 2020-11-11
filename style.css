@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+html,
+body {
+
+    height: 100%;
+}
+
+#slide1 {
+    background-image: url(images/fond1.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+@keyframes opa {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#logo {
+    width: 700px;
+    height: 200px;
+    margin-top: 150px;
+    background-image: url(images/titre.png);
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 200px;
+
+    animation-name: opa;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+
+}
+
+#menu {
+    width: 100%;
+    padding-top: 600px;
+}
+
+#menu ul {
+
+    list-style: none;
+}
+
+#menu ul li {
+    
+    float: right;
+    padding-right: 100px;
+
+}
+
+#menu ul li a {
+    display: block;
+    width: 200px;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: crimson;
+    text-decoration: none;
+    animation-name: opa;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+#slide2 {
+    background-image: url(images/fond2.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#sabrina {
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 200px;
+    padding-left: 35px;
+    text-align:justify;
+
+
+}
+
+#greendale {
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 150px;
+    float: left;
+    padding-left: 35px;
+    text-align:justify;
+
+}
+
+#néan {
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 850px;
+    text-align:justify;
+
+
+}
+
+#slide3 {
+    background-image: url(images/history.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#wood {
+    background-image: url(images/wood.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+
+#slide4 {
+    background-image: url(images/dark-forest.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#persos {
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+
+}
+
+#news {
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+}
+
+.perso {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.perso a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+#forest {
+    background-image: url(images/dark-forest.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news {
+    margin-bottom: 50px;
+}
+
+.news a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.all{
+    padding-top: 50px;
+}
+.txt{
+    text-align: justify;
+    padding-top:60px;
+
+
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    left: 50px;
+    padding-top: 20px;
+    color: white;
+
+
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(119, 60, 21, 0.76);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media all and (max-width: 1200px) {
+    .wrapper {
+        width: 100%;
+        height:100%;
+    }
+    
+    #menu ul li a {
+        display: block;
+        left: 30%;
+        width: 100px;
+        float: left;
+    }
+      
+
+    #logo{
+        background-image: url(images/mediumtitre.png);
+        position:absolute;
+        width:350px;
+        height: 200px;
+        top: 50px;
+        left: 30%;
+    }
+    #néan{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 50px;
+        padding-top: 35px;
+        text-align:justify;
+        float: left;
+    }
+
+    #sabrina{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 50px;
+        padding-top: 100px;
+        text-align:justify;
+    }
+    #greendale{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 50px;
+        padding-top: 70px;
+        text-align:justify;
+    }
+
+    .all{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@media all and (max-width: 800px)  {
+    h1{
+        padding-left:10px;
+    }
+    #néan{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 150px;
+        padding-top: 35px;
+        text-align:justify;
+        float: left;
+    }
+
+    #sabrina{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 150px;
+        padding-top: 100px;
+        text-align:justify;
+    }
+    #greendale{
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 150px;
+        padding-top: 70px;
+        text-align:justify;
+    }
+    #persos {
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+    
+    }
+    
+    #news {
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+    }
+    .txt{ 
+        padding-left:20px;
+        padding-right:20px;
+
+    }
+    
+    .all{
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+      
+    #forest{
+        margin-bottom:0px;
+    }
+    #wood{
+        margin-bottom:0px;
+    }
+}
+
+@media all and (max-width: 500px){
+    #logo{
+        background-image: url(images/mintitre.png);
+        position:absolute;
+        width:150px;
+        height: 50px;
+        top: 50px;
+        left: 30%;
+    }
+    
+    #menu ul li a{
+        display: block;
+        left:10%;
+        font-size:20px;
+        width: 1px;
+        float:left;
+        position: relative;          
+        
+    }
+
+    #menu{
+        padding-top: 400px;
+    }
+    #néan{
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 50px;
+        padding-top: 40px;
+        text-align:justify;
+        float: left;
+    }
+
+    #sabrina{
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 50px;
+        padding-top: 100px;
+        text-align:justify;
+    }
+    #greendale{
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 50px;
+        padding-top: 50px;
+        text-align:justify;
+    }
+    .all{
+        font-size: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #wood{
+        margin-bottom:0px;
+    }
+
+    #forest{
+        margin-bottom:0px;
+    }
+    #persos {
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+        font-size: 15px;
+    
+    }
+    
+    #news {
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .news {
+        margin-bottom: 0px;
+    }
+    
+    .news a {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .perso {
+        margin-bottom: 0px;
+    }
+    
+    .perso a {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    h1{
+        font-size:25px;
+    }
+}
